@@ -1,0 +1,32 @@
+File Extraction_precip.nc (NC_FORMAT_CLASSIC):
+
+     1 variables (excluding dimension variables):
+        float precip[Lon,Lat,Time,projection]   
+            long_name: precipitaiton
+            units: mm/day
+            missing_value: 1.00000001504747e+30
+            _FillValue: 1.00000001504747e+30
+
+     4 dimensions:
+        projection  Size:64   *** is unlimited *** (no dimvar)
+        Lon  Size:1 
+            long_name: longitude
+            standard_name: longitude
+            units: degreesE
+        Lat  Size:1 
+            long_name: latitude
+            standard_name: latitude
+            units: degreesN
+        Time  Size:54787 
+            long_name: time
+            units: days since 1800-01-01
+
+    8 global attributes:
+        Conventions: CF-1.4
+        creation_date: Fri Jul 15 11:52:02 2016
+        output_version: 0
+        version_description: 
+        created_by: pierce
+        cmd_line: /home/pierce/src/mine/vic_utils/xtslab2nc -rm_slabs -template /net/loca2/LOCA_2016-04-02/ACCESS1-0/16th/historical/r1i1p1/tasmax/tasmax_day_ACCESS1-0_historical_r1i1p1_20050101-20051231.LOCA_2016-04-02.16th.nc -dir ../vic_output.historical -fname_base flux_snow -flux ../../fluxdescrip_dpierce_27_vars.txt
+        run_in_directory: /home/pierce/projects/vic_LOCA/NAmer/ACCESS1-0/vic_output.historical.netcdf
+        Projections: access1-0.1.rcp45, access1-0.1.rcp85, access1-3.1.rcp45, access1-3.1.rcp85, bcc-csm1-1.1.rcp45, bcc-csm1-1.1.rcp85, bcc-csm1-1-m.1.rcp45, bcc-csm1-1-m.1.rcp85, canesm2.1.rcp45, canesm2.1.rcp85, ccsm4.6.rcp45, ccsm4.6.rcp85, cesm1-bgc.1.rcp45, cesm1-bgc.1.rcp85, cesm1-cam5.1.rcp45, cesm1-cam5.1.rcp85, cmcc-cm.1.rcp45, cmcc-cm.1.rcp85, cnrm-cm5.1.rcp45, cnrm-cm5.1.rcp85, csiro-mk3-6-0.1.rcp45, csiro-mk3-6-0.1.rcp85, ec-earth.8.rcp45, ec-earth.2.rcp85, fgoals-g2.1.rcp45, fgoals-g2.1.rcp85, gfdl-cm3.1.rcp45, gfdl-cm3.1.rcp85, gfdl-esm2g.1.rcp45, gfdl-esm2g.1.rcp85, gfdl-esm2m.1.rcp45, gfdl-esm2m.1.rcp85, giss-e2-r.6.rcp45, giss-e2-r.2.rcp85, hadgem2-ao.1.rcp45, hadgem2-ao.1.rcp85, hadgem2-cc.1.rcp45, hadgem2-cc.1.rcp85, hadgem2-es.1.rcp45, hadgem2-es.1.rcp85, inmcm4.1.rcp45, inmcm4.1.rcp85, ipsl-cm5a-lr.1.rcp45, ipsl-cm5a-lr.1.rcp85, ipsl-cm5a-mr.1.rcp45, ipsl-cm5a-mr.1.rcp85, miroc-esm.1.rcp45, miroc-esm.1.rcp85, miroc-esm-chem.1.rcp45, miroc-esm-chem.1.rcp85, miroc5.1.rcp45, miroc5.1.rcp85, mpi-esm-lr.1.rcp45, mpi-esm-lr.1.rcp85, mpi-esm-mr.1.rcp45, mpi-esm-mr.1.rcp85, mri-cgcm3.1.rcp45, mri-cgcm3.1.rcp85, noresm1-m.1.rcp45, noresm1-m.1.rcp85, cmcc-cms.1.rcp45, cmcc-cms.1.rcp85, giss-e2-h.6.rcp45, giss-e2-h.2.rcp85, 
